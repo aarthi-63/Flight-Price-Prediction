@@ -9,6 +9,7 @@ import streamlit as st
 from PIL import Image
 import pickle
 import pandas as pd
+import sklearn
 
 # Deserialization process (python object from byte stream)
 encoder=pickle.load(open("encode_file.pkl",'rb'))
