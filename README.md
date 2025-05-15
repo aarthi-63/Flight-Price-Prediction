@@ -31,8 +31,11 @@ Streamlit for deploying the model as a web application
 
 ### Project Highlights
 **Feature Engineering:** Extracted and transformed features such as journey day and month, departure and arrival hours and minutes, and duration in minutes to enhance model performance.
+
 **Model Selection:**  The Random Forest Regressor yielded the best performance with an R² score of 0.82.
+
 **Hyperparameter Tuning:** Utilized GridSearchCV to fine-tune model parameters for optimal performance.
+
 **Web Application:** Developed a user-friendly web interface using Streamlit, allowing users to input flight details and receive predicted prices in real-time.
 
 ### Results
